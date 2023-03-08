@@ -3,19 +3,19 @@ import home1 from "../img/home1.png";
 
 function AboutSection() {
   return (
-    <div>
+    <div className="about">
       <div className="description">
         <div className="title">
           <div className="hide">
-            <h2>We work to made</h2>
+            <h2>Hi,</h2>
           </div>
           <div className="hide">
             <h2>
-              your <span>dreams</span> come
+              I am <span>Viktor</span>
             </h2>
           </div>
           <div className="hide">
-            <h2>true.</h2>
+            <h2>web developer</h2>
           </div>
         </div>
         <p>

@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUs from "./pages/AboutMe";
+import "./styles/app.css";
 
 function App() {
   return (
