@@ -1,52 +1,88 @@
 import React from "react";
-import clock from "../img/clock.svg";
-import diaphragm from "../img/diaphragm.svg";
-import money from "../img/money.svg";
-import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+import html from "../img/html.png";
+import css from "../img/css.png";
+import sass from "../img/sass.svg";
+import js from "../img/javascript.png";
+import react from "../img/react.png";
+import git from "../img/git.png";
+import redux from "../img/redux.png";
+import { motion } from "framer-motion";
+import { scrollReveal } from "../pages/Animation";
+import { useScroll } from "./useScroll";
+import { Link } from "react-router-dom";
 
 function MyStack() {
+  const [element, controls] = useScroll();
   return (
-    <div className="myStack">
-      <div className="description">
+    <div className="myStack" >
+      <motion.div className="stack_icons" ref={element} variants={scrollReveal} animate={controls} initial="hidden">
         <h2>
-          My <span>stack</span>
-        </h2>
+          My tech <span>Stack</span>
+        </h2>      
         <div className="skills">
           <div className="skill">
             <div className="icon">
-              <img src={clock} />
-              <h3>HTML</h3>
+              <img src={html} />            
             </div>
-          <p>Lorem ipsum dolor sit amet.</p>
+            <div className="skill_text">
+              <h3>|HTML|</h3>   
+            </div>       
           </div>
-
           <div className="skill">
             <div className="icon">
-              <img src={teamwork} />
-              <h3>CSS</h3>
+              <img src={css} />  
             </div>
-          <p>Lorem ipsum dolor sit amet.</p>
+            <div className="skill_text">
+              <h3>|CSS|</h3>
+            </div>           
           </div>
-
+          <div className="skill">
+            <div className="icon" id="icon1">
+              <img src={js} /> 
+            </div>
+            <div className="skill_text">
+              <h3>|JavaScript|</h3>
+            </div>          
+          </div>
+          <div className="skill">
+            <div className="icon" id="icon2">
+              <img src={sass} /> 
+            </div>
+            <div className="skill_text">
+              <h3>|Sass|</h3>
+            </div> 
+          </div>
           <div className="skill">
             <div className="icon">
-              <img src={diaphragm} />
-              <h3>JavaScript</h3>
+              <img src={react} /> 
             </div>
-          <p>Lorem ipsum dolor sit amet.</p>
+            <div className="skill_text">
+              <h3>|React JS|</h3>
+            </div>
           </div>
-
           <div className="skill">
             <div className="icon">
-              <img src={money} />
-              <h3>React</h3>
+              <img src={git} /> 
             </div>
-          <p>Lorem ipsum dolor sit amet.</p>
+            <div className="skill_text">
+                <h3>|Git|</h3>
+            </div>
+          </div>
+          <div className="skill">
+            <div className="icon">
+              <img src={redux} /> 
+            </div>
+            <div className="skill_text">
+                <h3>|Redux|</h3>
+            </div>
           </div>
         </div>
-      </div>
-      <img src={home2} />
+        <Link to="/work"><button className="my_work_button">My Work</button></Link>
+      </motion.div>
+      <motion.div className="about_text" ref={element} variants={scrollReveal} animate={controls} initial="hidden">
+        <h2>About</h2>
+        <div>As a Junior Front-End Developer, I am passionate about creating clean, elegant, and responsive websites that provide an exceptional user experience. I am constantly learning new technologies and best practices to improve my skills and stay up-to-date with the latest trends in web development.</div>
+      </motion.div>
     </div>
   );
 }

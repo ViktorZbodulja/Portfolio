@@ -1,27 +1,20 @@
+@import "./mixins";
+
 .about {
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5rem 10rem;
-    color: white;
+    @include about;
 }
 .description {
-    flex: 1;
-    padding-right: 5rem;
-    h2 {
-        font-weight: lighter;
-    }
+  @include description;
 }
 .image {
-    flex: 1;
-    overflow: hidden;
-    img {
-        width: 100%;
-        height: 80vh;
-        object-fit: cover;
-    }
+   @include image;
+   border-radius: 2rem 8rem 2rem 8rem;
 }
 .hide {
-    overflow: hidden;
+    @include hide
+}
+.wave_svg {
+  position: absolute;
+  left: 0;
+  z-index: 1;
 }

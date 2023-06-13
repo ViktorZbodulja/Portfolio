@@ -1,0 +1,36 @@
+@import "./mixins";
+
+.faq {
+    @include about;
+    display: block;
+    span {
+        display: block;
+    }
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 3rem;
+        font-weight: lighter;
+    }
+    .faq-line  {
+        background: #cccccc;
+        height: 0.2rem;
+        margin: 2rem 0rem;
+        width: 100%;
+    }
+    .question {
+        padding: 1rem 0rem;
+        cursor: pointer;
+    }
+    .answer {
+        padding: 2rem 0rem;
+        p {
+            padding: 1rem 0rem;
+        }
+    }
+    .highlight_line {
+        background: #23d997;
+        transition: ease-in-out 0.75s;
+    }
+}
+
+

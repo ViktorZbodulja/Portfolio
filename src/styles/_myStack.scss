@@ -1,0 +1,105 @@
+@import "./mixins";
+
+.myStack {
+  @include about;
+  align-items: flex-start;
+  min-height: 75vh;
+  //padding-top: 10rem;
+  //background: rgb(36, 36, 36);
+  background: url("../img/background1.jpg") center center/cover no-repeat;
+  //https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80
+  //https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+  
+  h2 {
+    padding-bottom: 2rem;
+    flex-basis: 100%;
+  }
+  p {
+    width: 70%;
+    padding: 2rem 0rem 4rem 0rem;
+  }
+}
+.stack_icons {
+  @include description;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 2rem;
+  flex-basis: 50%;
+  h2 {
+    font-size: 3rem;
+  }
+  .my_work_button {
+    @include button;
+    margin-top: 4rem;
+    padding: 1rem 3.5rem; 
+  }
+ 
+  
+}
+.about_text {
+  flex-basis: 50%;
+  h2 {
+    font-size: 3rem;
+  }
+  div {
+    font-size: 1.2rem;
+    line-height: 160%;
+    text-align: justify;
+    //padding: 1rem;
+    //background: rgba(128, 128, 128, 0.2);
+    //border-radius: 10px;
+  }
+}
+.image {
+  @include image;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; 
+  margin: 0 -1rem; 
+  align-self: flex-start;
+  width: 70%;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    padding: 1rem; 
+    align-items: center;
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eff0f0;
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      overflow: hidden; 
+      img {
+        max-width: 65%;
+        max-height: 65%;
+        object-fit: cover; 
+      }
+    }
+    h3 {
+      margin-top: 0rem;
+    }
+    .skill_text {
+        width: 5rem;
+        text-align: center;
+        h3 {
+          font-size: 0.8rem;
+        }
+    }
+  }
+#icon1 {
+  background: rgb(250, 241, 195)
+}
+#icon2 {
+  background: rgb(252, 233, 242)
+}
+

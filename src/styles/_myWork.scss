@@ -1,0 +1,47 @@
+.my_work {
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 5rem 10rem;
+    h2 {
+        padding: 1rem 0rem;
+    }
+    
+}
+.my_app {
+    padding-bottom: 10rem;
+    .line {
+        height: 0.5rem;
+        background: #23d997;
+        margin-bottom: 3rem;
+    }
+    img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+.hide_img {
+    overflow: hidden;
+}
+//Frame animation style
+.frame1 {
+    position: fixed;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    height: 100vh;
+    background: #fffebf;
+    z-index: 2;
+}
+.frame2 {
+   @extend .frame1;
+    background: #D96ED4;
+}
+.frame3 {
+    @extend .frame1;
+     background: #8b53a8;
+ }
+ .frame4 {
+    @extend .frame1;
+     background: #30f5c0;
+ }

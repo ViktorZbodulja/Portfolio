@@ -1,32 +1,36 @@
 import React from "react";
-import home1 from "../img/home1.png";
+import home1 from "../img/home_3_rg.jpg";
+import {motion} from "framer-motion";
+import { titleAnim, fade, photoAnim } from "../pages/Animation";
+import Wave from "./Wave";
 
 function AboutSection() {
+
   return (
     <div className="about">
       <div className="description">
-        <div className="title">
+        <motion.div className="title">
           <div className="hide">
-            <h2>Hi,</h2>
+            <motion.h2 variants={titleAnim}>Hi,</motion.h2>
           </div>
           <div className="hide">
-            <h2>
-              I am <span>Viktor</span>
-            </h2>
+            <motion.h2 variants={titleAnim} >
+              I am <span>Viktor,</span>
+            </motion.h2>
           </div>
           <div className="hide">
-            <h2>web developer</h2>
+            <motion.h2 variants={titleAnim}>Frontend developer</motion.h2>
           </div>
-        </div>
-        <p>
-          Contact us for any photograpy or videography ideas that you have. We
-          have profesionals with amazing skills.
-        </p>
-        <button>Contact Us</button>
+        </motion.div>
+        <motion.p variants={fade}>
+        I create visually appealing and intuitive user interfaces by combining my passion for design with my experience in HTML, CSS and JavaScript.
+        </motion.p>
+        <motion.button variants={fade}>Contact Me</motion.button>
       </div>
       <div className="image">
-        <img src={home1} alt="profile picture" />
+        <motion.img variants={photoAnim} src={home1} alt="profile picture" />
       </div>
+      <Wave />
     </div>
   );
 }

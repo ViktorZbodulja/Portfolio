@@ -1,0 +1,43 @@
+ @mixin about {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    color: white;
+}
+@mixin description {
+    flex: 1;
+    padding-right: 5rem;
+    z-index: 2;
+    h2 {
+        font-weight: lighter;
+    }
+}
+@mixin image {
+    flex: 1;
+    overflow: hidden;
+    z-index: 2;
+    img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+    }
+}
+@mixin hide {
+    overflow: hidden;
+}
+@mixin button {
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        border: 3px solid #23d997;
+        background: transparent;
+        color: white;
+        transition: all 0.5s ease;
+        font-family: 'Inter', sans-serif;
+        &:hover {
+            background-color: #23d997;
+        }   
+}
