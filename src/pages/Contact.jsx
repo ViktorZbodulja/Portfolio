@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { pageAnimation, titleAnim, photoAnim } from "./Animation";
 //img
-import contactImg from "../img/profile_contact_1.jpg";
+import contactImg from "../img/contact_background.jpg";
 
 function Contact() {
   return (
@@ -42,17 +42,10 @@ function Contact() {
               <h2><a href="https://www.linkedin.com/in/viktor-zbodulja-4b0408228/?originalSubdomain=hr" target="_blank">Linkedin</a></h2>
             </motion.div>
           </div>
-          <div className="hide">
-            <motion.div className="social" variants={titleAnim}>
-              <div className="circle"></div>
-              <h2><a href="https://www.instagram.com/viktor_zb0/" target="_blank">Instagram</a></h2>
-            </motion.div>
-          </div>
         </div>
       </div>
     </motion.div>
   )
 }
   
-
 export default Contact;

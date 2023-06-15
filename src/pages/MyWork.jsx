@@ -28,7 +28,7 @@ function MyWork() {
         <motion.div className="frame4" variants={loaderAnim}></motion.div>
       </motion.div>
       <div className="my_app">
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>ForecastNow</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-athlete">
           <div className="hide_img">

@@ -1,7 +1,8 @@
 import React from "react";
-import home1 from "../img/home_3_rg.jpg";
+import home1 from "../img/home_2.jpg";
 import {motion} from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../pages/Animation";
+import { Link } from "react-router-dom";
 import Wave from "./Wave";
 
 function AboutSection() {
@@ -25,7 +26,7 @@ function AboutSection() {
         <motion.p variants={fade}>
         I create visually appealing and intuitive user interfaces by combining my passion for design with my experience in HTML, CSS and JavaScript.
         </motion.p>
-        <motion.button variants={fade}>Contact Me</motion.button>
+        <Link to="/contact"><motion.button variants={fade}>Contact Me</motion.button></Link>
       </div>
       <div className="image">
         <motion.img variants={photoAnim} src={home1} alt="profile picture" />
