@@ -421,18 +421,23 @@ p {
 
 .contact_style {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
   padding: 5rem 10rem;
   color: #353535;
   min-height: 90vh;
   font-family: "Montserrat", sans-serif;
 }
 
+.contact_header {
+  flex-basis: 100%;
+  color: white;
+  margin: 5rem 0rem 5rem 0rem;
+}
+
 .contact_title {
-  margin-bottom: 2rem;
   color: black;
-  width: 60%;
+  width: 50%;
 }
 
 .hide {
@@ -470,20 +475,23 @@ p {
 .contact_container {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 60%;
+  flex-basis: 50%;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-end;
+  padding-right: 7rem;
 }
 
 .contact_list {
+  flex: 1 1;
   flex-basis: 60%;
   color: rgb(255, 255, 255);
-  background-color: rgba(59, 59, 59, 0.6);
+  background-color: rgba(59, 59, 59, 0.4);
   padding: 2rem;
   border-radius: 1rem;
   padding: 1.5rem;
   border-radius: 1rem;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border: 1px solid #23d997;
 }
 
 .contact_txt {
@@ -549,8 +557,5 @@ p {
   .contact_style {
     padding: 2rem;
     font-size: 1rem;
-  }
-  .contact_title {
-    margin-top: 5rem;
   }
 }/*# sourceMappingURL=app.css.map */

@@ -1,7 +1,7 @@
 import React from "react";
 //Animation
 import { motion } from "framer-motion";
-import { pageAnimation, titleAnim, photoAnim } from "./Animation";
+import { pageAnimation, titleAnim, contactAnim } from "./Animation";
 //img
 import contactImg from "../img/contact_background.jpg";
 
@@ -14,14 +14,7 @@ function Contact() {
       exit="exit"
       style={{background: `url(${contactImg}) center center/cover no-repeat`}}
       >
-      <h1 className="contact_title">
-        <div className="hide">
-          <motion.div className="contact_txt" variants={titleAnim}>
-            <h2 >Reach out and let's make something <span>extraordinary!</span></h2>
-            <p>Whether you have a question, want to collaborate, or simply want to chat, I'm all ears. Drop me a line and let's bring your vision to life.</p>
-          </motion.div>
-        </div>
-      </h1>
+        <h2 className="contact_header"> Get In Touch.</h2>
       <div className="contact_container">
         <div className="contact_list">
           <div className="hide">
@@ -42,6 +35,14 @@ function Contact() {
               <h2><a href="https://www.linkedin.com/in/viktor-zbodulja-4b0408228/?originalSubdomain=hr" target="_blank">Linkedin</a></h2>
             </motion.div>
           </div>
+        </div>
+      </div>
+      <div className="contact_title">
+        <div className="hide">
+          <motion.div className="contact_txt" variants={contactAnim}>
+            <h2 >Reach out and let's make something <span>extraordinary!</span></h2>
+            <p>Whether you have a question, want to collaborate, or simply want to chat, I'm all ears. Drop me a line and let's bring your vision to life.</p>
+          </motion.div>
         </div>
       </div>
     </motion.div>

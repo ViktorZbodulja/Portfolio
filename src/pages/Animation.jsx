@@ -22,10 +22,17 @@ export const pageAnimation = {
 }
 };
 export const titleAnim = {
-    hidden: { y: 300 },
+    hidden: { y: 200 },
     show: {
         y: 0,
         transition: {duration: 1, ease: "easeOut"}
+    }
+}
+export const contactAnim = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {duration: 1, ease: "easeOut", delay: 1.25}
     }
 }
 export const fade = {
