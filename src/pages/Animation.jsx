@@ -35,11 +35,18 @@ export const contactAnim = {
         transition: {duration: 1, ease: "easeOut", delay: 1.25}
     }
 }
+export const borderAnim = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: {duration: 1, ease: "easeOut", staggerChildren: 0.2}
+    }
+}
 export const fade = {
     hidden: { opacity: 0},
     show: {
         opacity: 1,
-        transition: {ease: "easeOut", duration: 0.75}
+        transition: {ease: "easeOut", duration: 0.75, delay: 0.5}
     }
 }
 export const photoAnim = {
@@ -58,7 +65,7 @@ export const lineAnim = {
     hidden: {width: "0%"},
     show: {
         width: "100%",
-        transition: {duration: 1}
+        transition: {duration: 1, delay: 0.6}
     }
 }
 export const loaderAnim = {

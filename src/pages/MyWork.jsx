@@ -1,17 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
 import { Link } from "react-router-dom";
+import myApps from "../components/myApps";
+import Aplication from "../components/Aplication";
 //animations
 import { motion } from "framer-motion";
 import { pageAnimation, fade, photoAnim, lineAnim, loaderAnim, sliderContainer } from "./Animation";
-import { useScroll } from "../components/useScroll";
+
 import ScrollTop from "../components/ScrollTop";
 
 function MyWork() {
-  const [element, controls] = useScroll();
-  const [element2, controls2] = useScroll();
+
+  const [appsData, setAppsData] = useState(myApps());
   return (
     <motion.div 
       className="my_work"
@@ -27,24 +29,15 @@ function MyWork() {
         <motion.div className="frame3" variants={loaderAnim}></motion.div>
         <motion.div className="frame4" variants={loaderAnim}></motion.div>
       </motion.div>
-      <div className="my_app">
-        <motion.h2 variants={fade}>ForecastNow</motion.h2>
-        <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-athlete">
-          <div className="hide_img">
-          <motion.img variants={photoAnim} src={athlete} alt="athlete" />
-          </div> 
-        </Link>
-      </div>
-      <motion.div className="my_app" ref={element} variants={fade} animate={controls} initial="hidden">
-        <h2>The Racer</h2>
-        <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-racer"><img src={theracer} alt="athlete" /></Link>
-      </motion.div>
-      <motion.div className="my_app" ref={element2} variants={fade} animate={controls2} initial="hidden">
-        <h2>Bood Times</h2>
-        <motion.div className="line" variants={lineAnim}></motion.div>
-        <Link to="/work/good-times"><img src={goodtimes} alt="athlete" /></Link>
+      <motion.div className="my_app" variants={fade}>
+        <div className="map_apps">
+        {appsData.map((appData, index) => (
+            <Aplication
+              key={index}
+              appData={appData}
+             /> 
+          ))}
+        </div> 
       </motion.div>
       <ScrollTop />
     </motion.div>
