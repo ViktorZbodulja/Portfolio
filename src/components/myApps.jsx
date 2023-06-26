@@ -2,6 +2,8 @@ import forecast from "../img/forecast1.png";
 import beat from "../img/beat.png";
 import gamesPlanet from "../img/gamesPlanet_2.png";
 import chill from "../img/chill.jpg";
+import palette from "../img/palette.png";
+import fashion from "../img/fashion.jpg";
 import html from "../img/html.png";
 import css from "../img/css.png";
 import react from "../img/react.png";
@@ -18,7 +20,7 @@ function myApps() {
         description: "This React-based weather application dynamically fetches real-time weather data and displays it in a user-friendly manner. With just a city input, you can quickly access the current weather conditions, including temperature, humidity, wind speed, and more.", 
         aditional1: "What sets this app apart is its ability to dynamically change the background picture based on the entered city.",
         gitHub: "https://github.com/ViktorZbodulja/ReactJS-Weather-app",
-        live: "forecastnow-weather.netlify.app/",
+        live: "https://forecastnow-weather.netlify.app/",
         stack: [`${html}`, `${css}`, `${sass}`, `${react}`]
       },
       {
@@ -41,6 +43,16 @@ function myApps() {
         stack: [`${html}`, `${css}`, `${js}`]
       },
       {
+        name: "Color.Palette.Generator",
+        cover: `${palette}`,
+        description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
+        aditional:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
+        aditional2: "With its user-friendly interface, you'll find it effortless to explore the diverse range of beat options available. From punchy kicks to crisp snares, the application offers a wide array of sounds to choose from, enabling you to create the perfect beat that resonates with your musical vision. One notable feature of this application is its complete responsiveness.",
+        gitHub: "https://github.com/ViktorZbodulja/Color_Palette_Generator_JS",
+        live: "https://color-palette-generatorjs.netlify.app/",
+        stack: [`${html}`, `${css}`, `${js}`]
+      },
+      {
         name: "Chill.Vibes",
         cover: `${chill}`,
         description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
@@ -49,6 +61,16 @@ function myApps() {
         gitHub: "https://github.com/ViktorZbodulja/React_music_player",
         live: "https://chill-vibes.netlify.app/",
         stack: [`${html}`, `${css}`, `${sass}`, `${react}`]
+      },
+      {
+        name: "Fashion Fare",
+        cover: `${fashion}`,
+        description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
+        aditional:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
+        aditional2: "With its user-friendly interface, you'll find it effortless to explore the diverse range of beat options available. From punchy kicks to crisp snares, the application offers a wide array of sounds to choose from, enabling you to create the perfect beat that resonates with your musical vision. One notable feature of this application is its complete responsiveness.",
+        gitHub: "https://github.com/ViktorZbodulja/FashionFlair",
+        live: "https://fashion-flarejs.netlify.app/",
+        stack: [`${html}`, `${css}`, `${sass}`, `${js}`]
       },
     ];
 }

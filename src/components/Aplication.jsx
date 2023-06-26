@@ -8,7 +8,7 @@ function Aplication({appData}) {
   const [element2, controls2] = useScroll();
   return (
     <div className="my_app">
-        <h2 className='app_header'>{appData.name}</h2>
+        <motion.h2 className='app_header' variants={fade}>{appData.name}</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <div className='app_container'>
           <img src={appData.cover} alt="appData.name" />

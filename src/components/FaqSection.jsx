@@ -12,7 +12,7 @@ function FaqSection() {
         <LayoutGroup>
             <Toggle title={"My future plans"}>
                     <div className='answer'>
-                        <p>My goal as a Junior Front-End Developer is to continue to learn and grow in my skills and abilities, and to contribute to projects that make a positive impact on people's lives.</p>  
+                        <p>My goal as a Junior Front-End Developer is to continue to learn and grow in my skills and abilities, and also want to extend my knowledge to backend.</p>  
                     </div> 
             </Toggle>
             <Toggle title={"Location"}>  
