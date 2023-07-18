@@ -3,13 +3,12 @@
 .myStack {
   @include about;
   align-items: flex-start;
-  min-height: 75vh;
+  min-height: 73vh;
   //padding-top: 10rem;
   //background: rgb(36, 36, 36);
   background: url("../img/background1.jpg") center center/cover no-repeat;
   //https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80
-  //https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
-  
+  background-attachment: fixed;
   h2 {
     padding-bottom: 2rem;
     flex-basis: 100%;

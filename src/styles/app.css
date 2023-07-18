@@ -113,8 +113,9 @@ p {
   padding: 5rem 10rem;
   color: white;
   align-items: flex-start;
-  min-height: 75vh;
+  min-height: 73vh;
   background: url("../img/background1.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
 }
 .myStack h2 {
   padding-bottom: 2rem;
@@ -622,4 +623,63 @@ p {
 }
 .app_buttons :nth-child(2) {
   margin-left: 2rem;
+}
+
+.vertical_container {
+  padding: 3rem 3rem;
+  display: flex;
+  background: linear-gradient(to bottom, #1B1B1B, #6a6a6a);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vertical-timeline {
+  margin: 0;
+}
+
+.vertical-timeline-element span {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.education_header {
+  color: white;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  padding: 0rem 0rem 3rem 0rem;
+}
+
+.vertical-timeline::before {
+  background: rgb(183, 182, 182);
+}
+
+.vertical-timeline-element-content {
+  color: white;
+  background: rgba(66, 66, 66, 0.7);
+  box-shadow: 0 3px 0 #10d68d;
+}
+.vertical-timeline-element-content h3 {
+  color: white;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.4rem;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  font-weight: 200;
+}
+
+.vertical-timeline-element-subtitle_date {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  font-weight: 200;
+  color: rgb(132, 131, 131);
+}
+
+.vertical-timeline-element-date {
+  color: #10d68d;
 }/*# sourceMappingURL=app.css.map */
