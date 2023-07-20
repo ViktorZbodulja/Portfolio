@@ -628,7 +628,7 @@ p {
 .vertical_container {
   padding: 3rem 3rem;
   display: flex;
-  background: linear-gradient(to bottom, #1B1B1B, #6a6a6a);
+  background: linear-gradient(to bottom, #1b1b1b, #6a6a6a);
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -651,7 +651,7 @@ p {
 }
 
 .vertical-timeline::before {
-  background: rgb(183, 182, 182);
+  background: rgb(125, 125, 125);
 }
 
 .vertical-timeline-element-content {
@@ -682,4 +682,10 @@ p {
 
 .vertical-timeline-element-date {
   color: #10d68d;
+}
+
+.vertical-timeline-element-icon img {
+  height: 75%;
+  width: auto;
+  border-radius: 50%;
 }/*# sourceMappingURL=app.css.map */

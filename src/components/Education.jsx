@@ -1,11 +1,25 @@
 import React from 'react';
-import educationIcon from "../img/algebra_logo.jpeg";
-import tvz_logo from "../img/tvz_logo.png"
+import algebraLogo from "../img/algebra_logo.jpeg";
+//import coledgeLogo from "../img/coledge.svg";
 import timelineElements from "./timelineElements";
+import circle from "../img/circle.svg"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 function Education() {
+  const getIconByType = (icon) => {
+    switch (icon) {
+      case 'algebra':
+        return algebraLogo;
+     
+      case 'sv':
+        return algebraLogo;
+      case 'gts':
+        return algebraLogo;
+      default:
+        return null;
+    }
+  }
   return (
     <div className='vertical_container'>
       <div className='education_header'>Education</div>
@@ -16,7 +30,7 @@ function Education() {
             date={element.date}
             dateClassName='date'
             iconStyle={{ background: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 0 }}
-            icon={<img src={educationIcon} alt="Education Icon" style={{ height: '75%', width: 'auto', borderRadius: '50%' }} />}
+            icon={<img src={circle} alt="Education Icon" />}
           >
             <h1 className="vertical-timeline-element-title">{element.name}</h1>
             <h4 className="vertical-timeline-element-subtitle">{element.title}</h4>
