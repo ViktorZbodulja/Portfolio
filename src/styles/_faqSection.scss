@@ -3,6 +3,7 @@
 .faq {
     @include about;
     display: block;
+    padding: 5rem 14rem;
     span {
         display: block;
     }

@@ -2,6 +2,7 @@ import React from "react";
 import AboutSection from "../components/AboutSection";
 import MyStack from "../components/MyStack";
 import Education from "../components/Education";
+import CoursesList from "../components/CoursesList";
 import FaqSection from "../components/FaqSection";
 //animations
 import { motion } from "framer-motion";
@@ -20,6 +21,7 @@ function AboutUs() {
       <AboutSection />
       <MyStack />
       <Education />
+      <CoursesList />
       <FaqSection />
       <ScrollTop />
     </motion.div>

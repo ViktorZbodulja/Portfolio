@@ -244,6 +244,7 @@ p {
   padding: 5rem 10rem;
   color: white;
   display: block;
+  padding: 5rem 14rem;
 }
 .faq span {
   display: block;
@@ -688,4 +689,62 @@ p {
   height: 75%;
   width: auto;
   border-radius: 50%;
+}
+
+.courses {
+  padding: 3rem 0rem;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.courses h2 {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.courses_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 25%;
+  padding: 2rem 2rem 2rem 4rem;
+  justify-content: center;
+  border: 2px #1cf5a5 solid;
+  background: #222222;
+  border-radius: 10px;
+  min-height: 27vh;
+  margin-left: 1.5rem;
+}
+.course p {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 0;
+}
+.course img {
+  height: 4rem;
+}
+
+.img_container {
+  flex-basis: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.course_description {
+  width: 100%;
+}
+.course_description p {
+  text-align: left;
+}
+.course_description p:first-of-type {
+  font-size: 1.4rem;
 }/*# sourceMappingURL=app.css.map */

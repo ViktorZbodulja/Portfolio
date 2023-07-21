@@ -1,5 +1,4 @@
 import React from 'react';
-import algebraLogo from "../img/algebra_logo.jpeg";
 //import coledgeLogo from "../img/coledge.svg";
 import timelineElements from "./timelineElements";
 import circle from "../img/circle.svg"
@@ -7,19 +6,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 function Education() {
-  const getIconByType = (icon) => {
-    switch (icon) {
-      case 'algebra':
-        return algebraLogo;
-     
-      case 'sv':
-        return algebraLogo;
-      case 'gts':
-        return algebraLogo;
-      default:
-        return null;
-    }
-  }
   return (
     <div className='vertical_container'>
       <div className='education_header'>Education</div>
