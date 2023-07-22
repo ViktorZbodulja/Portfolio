@@ -245,6 +245,7 @@ p {
   color: white;
   display: block;
   padding: 5rem 14rem;
+  height: 75vh;
 }
 .faq span {
   display: block;
@@ -747,4 +748,21 @@ p {
 }
 .course_description p:first-of-type {
   font-size: 1.4rem;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 14rem;
+  align-items: center;
+  min-height: 10vh;
+  background: #282828;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.logo_container a img {
+  height: 2rem;
+  width: auto;
+  margin-left: 1rem;
 }/*# sourceMappingURL=app.css.map */

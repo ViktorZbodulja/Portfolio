@@ -10,7 +10,7 @@ function AboutSection() {
   return (
     <div className="about">
       <div className="description">
-        <motion.div className="title">
+        <div className="title">
           <div className="hide">
             <motion.h2 variants={titleAnim}>Hi,</motion.h2>
           </div>
@@ -22,7 +22,7 @@ function AboutSection() {
           <div className="hide">
             <motion.h2 variants={titleAnim}>Frontend developer</motion.h2>
           </div>
-        </motion.div>
+        </div>
         <motion.p variants={fade}>
         I create visually appealing and intuitive user interfaces by combining my passion for design with my experience in HTML, CSS and JavaScript.
         </motion.p>

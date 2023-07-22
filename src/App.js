@@ -3,6 +3,7 @@ import AboutMe from "./pages/AboutMe";
 import Nav from "./components/Nav";
 import Contact from "./pages/Contact";
 import MyWork from "./pages/MyWork";
+import Footer from "./components/Footer";
 import "./styles/app.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 //Animation
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" exact element={<Contact />} />
         </Routes>
       </AnimatePresence>
+      <Footer />
     </div>
   );
 }

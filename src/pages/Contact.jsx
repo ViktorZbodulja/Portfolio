@@ -14,7 +14,7 @@ function Contact() {
       exit="exit"
       style={{background: `url(${contactImg}) center center/cover no-repeat`}}
       >
-        <h2 className="contact_header">Get In Touch.</h2>
+      <h2 className="contact_header">Get In Touch.</h2>
       <div className="contact_container">
         <motion.div className="contact_list" variants={borderAnim}>
           <div className="hide">
