@@ -5,22 +5,29 @@
 .stack {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 1rem;
-  
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     .stack_img {
-      display: flex;
-      justify-content: flex-start; 
-      align-items: center;
-      width: 3.2rem;
-      height: 3.2rem;
-        margin-left: 1rem;
+      flex-basis: 10%;
+      margin: 0;
       img {
-        width: 100%; 
-        height: 100%; 
-        object-fit: contain; 
+        width: 3.2rem; 
+        height: 3.2rem;
+        object-fit:contain;
       }
+     
     }
   }
+.stack_text {
+    flex-basis: 100%;
+}
+.stack_container {
+    display: flex;
+    flex-basis: 100%;
+}
 .app_container {
     display: flex;
     img {
@@ -32,8 +39,9 @@
 .app_description {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 40%;
+    flex-basis: 50%;
     margin-left: 3rem;
+    text-align: justify;
     div {
         font-size: 1.3rem;
     }
