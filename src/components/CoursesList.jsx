@@ -19,7 +19,7 @@ function CoursesList() {
             </div>
             <div className='course_description'>
               <p>|Flutter bootcamp|</p>
-              <p> HiveTech & ASEE</p>
+              <p>ASEE & HiveTech</p>
               <p> 2023.</p>
             </div>
           </motion.div>

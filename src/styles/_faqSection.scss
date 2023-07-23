@@ -3,8 +3,8 @@
 .faq {
     @include about;
     display: block;
-    padding: 5rem 14rem;
-    height: 75vh;
+    padding: 5rem 14rem 0rem 14rem;
+    min-height: 75vh;
     span {
         display: block;
     }
@@ -16,7 +16,7 @@
     .faq-line  {
         background: #cccccc;
         height: 0.2rem;
-        margin: 2rem 0rem;
+        margin: 0.5rem 0rem;
         width: 100%;
     }
     .question {
@@ -24,9 +24,9 @@
         cursor: pointer;
     }
     .answer {
-        padding: 2rem 0rem;
+        padding: 0.5rem 0rem;
         p {
-            padding: 1rem 0rem;
+            padding:0rem;
         }
     }
     .highlight_line {

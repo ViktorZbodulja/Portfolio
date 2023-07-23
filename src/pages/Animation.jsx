@@ -1,4 +1,4 @@
-import { easeOut } from "framer-motion";
+import { delay, easeOut } from "framer-motion";
 
 export const pageAnimation = {
     hidden: {
@@ -107,3 +107,4 @@ export const faqAnim = {
         transition: {duration: 0.75, ease: "easeOut", staggerChildren: 0.35}
     }
 }
+

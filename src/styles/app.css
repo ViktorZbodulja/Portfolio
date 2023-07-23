@@ -244,8 +244,8 @@ p {
   padding: 5rem 10rem;
   color: white;
   display: block;
-  padding: 5rem 14rem;
-  height: 75vh;
+  padding: 5rem 14rem 0rem 14rem;
+  min-height: 75vh;
 }
 .faq span {
   display: block;
@@ -258,7 +258,7 @@ p {
 .faq .faq-line {
   background: #cccccc;
   height: 0.2rem;
-  margin: 2rem 0rem;
+  margin: 0.5rem 0rem;
   width: 100%;
 }
 .faq .question {
@@ -266,10 +266,10 @@ p {
   cursor: pointer;
 }
 .faq .answer {
-  padding: 2rem 0rem;
+  padding: 0.5rem 0rem;
 }
 .faq .answer p {
-  padding: 1rem 0rem;
+  padding: 0rem;
 }
 .faq .highlight_line {
   background: #23d997;
@@ -426,16 +426,16 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  padding: 5rem 10rem;
+  padding: 5rem 14rem;
   color: #353535;
-  min-height: 90vh;
+  min-height: 80vh;
   font-family: "Montserrat", sans-serif;
 }
 
 .contact_header {
   flex-basis: 100%;
   color: white;
-  margin: 5rem 0rem 5rem 0rem;
+  margin: 2rem 0rem 5rem 0rem;
 }
 
 .contact_title {
@@ -449,8 +449,8 @@ p {
 
 .circle {
   border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
   background: #ffffff;
 }
 
@@ -465,7 +465,7 @@ p {
   align-items: center;
 }
 .social h2 a {
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 .social h2 a:visited {
@@ -503,10 +503,12 @@ p {
   color: white;
 }
 .contact_txt p {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  margin-right: 5rem;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: lighter;
+  text-align: justify;
 }
 .contact_txt h2 {
   font-size: 3rem;
@@ -761,6 +763,11 @@ p {
   font-weight: 600;
 }
 
+.logo_container a :hover {
+  scale: 1.1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
 .logo_container a img {
   height: 2rem;
   width: auto;
