@@ -1,6 +1,6 @@
 import React from "react";
 import home1 from "../img/home_2.jpg";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../pages/Animation";
 import { Link } from "react-router-dom";
 import Wave from "./Wave";

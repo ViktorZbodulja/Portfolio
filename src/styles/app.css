@@ -468,12 +468,13 @@ p {
 .social h2 a {
   font-size: 2rem;
   text-decoration: none;
+  color: white;
 }
 .social h2 a:visited {
-  color: inherit;
+  color: white;
 }
 .social h2 a[href^="mailto:"] {
-  color: inherit;
+  color: white;
 }
 
 .contact_container {

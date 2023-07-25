@@ -65,7 +65,7 @@ export const lineAnim = {
     hidden: {width: "0%"},
     show: {
         width: "100%",
-        transition: {duration: 1, delay: 0.6}
+        transition: {duration: 1}
     }
 }
 export const loaderAnim = {

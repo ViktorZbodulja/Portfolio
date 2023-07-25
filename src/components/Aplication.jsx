@@ -5,11 +5,11 @@ import { useScroll } from "../components/useScroll";
 
 function Aplication({appData}) {
   const [element, controls] = useScroll();
-  const [element2, controls2] = useScroll();
+
   return (
     <div className="my_app">
         <motion.h2 className='app_header' variants={fade}>{appData.name}</motion.h2>
-        <motion.div variants={lineAnim} className="line"></motion.div>
+        <motion.div variants={lineAnim} ref={element} animate={controls} className="line"></motion.div>
         <div className='app_container'>
           <img src={appData.cover} alt="appData.name" />
           <div className='app_description'>

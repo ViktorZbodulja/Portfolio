@@ -37,11 +37,12 @@
         a{
             font-size: 2rem;
             text-decoration: none;
+            color: white;
             &:visited {
-                color: inherit;
+                color: white;   
               }
             &[href^="mailto:"] {
-                color: inherit;
+                color: white;
               }
         }
     }
