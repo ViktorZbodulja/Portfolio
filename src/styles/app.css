@@ -539,12 +539,16 @@ p {
   .skills {
     justify-content: center;
   }
+  .contact_title {
+    flex-basis: 50%;
+    padding-right: 4rem;
+  }
   nav {
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 0;
   }
   nav ul {
-    padding: 2rem;
+    padding: 1rem 1.5rem 2.5rem 1.5rem;
     justify-content: space-around;
     width: 100%;
   }
@@ -562,7 +566,7 @@ p {
     padding: 2rem 2rem;
   }
   .contact_style {
-    padding: 5rem;
+    padding: 8rem 5rem 0rem 5rem;
     font-size: 1rem;
   }
   .contact_txt h2 {
@@ -572,11 +576,23 @@ p {
     margin-right: 0;
   }
 }
+@media (max-width: 1055px) {
+  .contact_style {
+    justify-content: center;
+    padding-top: 6rem;
+  }
+  .contact_title {
+    flex-basis: 60%;
+  }
+  .contact_container {
+    flex-basis: 60%;
+    margin-top: 3rem;
+  }
+}
 @media (max-width: 955px) {
   .contact_style {
     flex-wrap: wrap;
-    padding: 3rem;
-    min-height: auto;
+    padding: 8rem 3rem 2rem 3rem;
   }
   .contact_header {
     flex-basis: 80%;
@@ -588,11 +604,29 @@ p {
   .contact_container {
     padding-right: 3rem;
     margin-top: 3rem;
-    flex-basis: 80%;
+    flex-basis: 60%;
   }
   .contact_title {
     width: 80%;
-    margin-top: 3rem;
+  }
+}
+@media (max-width: 885px) {
+  .contact_container, .contact_title {
+    flex-basis: 70%;
+  }
+  .contact_title {
+    padding: 0;
+  }
+  .contact_container {
+    padding: 0;
+  }
+  .footer_container {
+    padding: 0;
+  }
+}
+@media (max-width: 765px) {
+  .contact_title, .contact_container {
+    flex-basis: 90%;
   }
 }
 .my_app {
@@ -813,4 +847,10 @@ p {
   height: 2rem;
   width: auto;
   margin-left: 1rem;
+}
+
+@media (max-width: 885px) {
+  .footer_container {
+    padding: 1rem 3rem;
+  }
 }/*# sourceMappingURL=app.css.map */
