@@ -32,7 +32,7 @@ export const contactAnim = {
     hidden: { opacity: 0 },
     show: {
         opacity: 1,
-        transition: {duration: 1, ease: "easeOut", delay: 1.25}
+        transition: {duration: 1, ease: "easeOut"}
     }
 }
 export const borderAnim = {

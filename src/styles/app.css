@@ -427,7 +427,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  padding: 5rem 14rem;
+  padding: 8rem 10rem 0rem 10rem;
   color: #353535;
   min-height: 80vh;
   font-family: "Montserrat", sans-serif;
@@ -483,7 +483,7 @@ p {
   flex-basis: 50%;
   align-items: flex-start;
   justify-content: flex-end;
-  padding-right: 7rem;
+  padding-right: 4rem;
 }
 
 .contact_list {
@@ -562,8 +562,37 @@ p {
     padding: 2rem 2rem;
   }
   .contact_style {
-    padding: 2rem;
+    padding: 5rem;
     font-size: 1rem;
+  }
+  .contact_txt h2 {
+    width: 100%;
+  }
+  .contact_txt p {
+    margin-right: 0;
+  }
+}
+@media (max-width: 955px) {
+  .contact_style {
+    flex-wrap: wrap;
+    padding: 3rem;
+    min-height: auto;
+  }
+  .contact_header {
+    flex-basis: 80%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 3rem;
+    display: none;
+  }
+  .contact_container {
+    padding-right: 3rem;
+    margin-top: 3rem;
+    flex-basis: 80%;
+  }
+  .contact_title {
+    width: 80%;
+    margin-top: 3rem;
   }
 }
 .my_app {
