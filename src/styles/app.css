@@ -563,7 +563,7 @@ p {
     margin: 1rem;
   }
   .my_work {
-    padding: 2rem 2rem;
+    padding: 2rem 4rem;
   }
   .contact_style {
     padding: 8rem 5rem 0rem 5rem;
@@ -574,6 +574,29 @@ p {
   }
   .contact_txt p {
     margin-right: 0;
+  }
+}
+@media (max-width: 1110px) {
+  .app_container {
+    flex-wrap: wrap;
+  }
+  .app_container img {
+    flex-basis: 100%;
+  }
+  .app_container .app_description {
+    flex-basis: 100%;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+  .app_container .stack {
+    margin-top: 2rem;
+  }
+  .app_container .stack_container {
+    margin-top: 1rem;
+    flex-basis: 60%;
+  }
+  .app_container .app_buttons {
+    margin-top: 3rem;
   }
 }
 @media (max-width: 1055px) {
@@ -623,10 +646,44 @@ p {
   .footer_container {
     padding: 0;
   }
+  .contact_style {
+    padding: 4rem 3rem 2rem 3rem;
+  }
 }
 @media (max-width: 765px) {
   .contact_title, .contact_container {
     flex-basis: 90%;
+  }
+}
+@media (max-width: 430px) {
+  .contact_title, .contact_container {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .contact_style {
+    padding: 4rem 2rem 0rem 2rem;
+  }
+  .contact_title, .contact_container {
+    flex-basis: 100%;
+  }
+  .contact_txt h2 {
+    font-size: 2.8rem;
+  }
+  .contact_txt p {
+    font-size: 1.5rem;
+  }
+  .social h2 a {
+    font-size: 1.6rem;
+  }
+  .contact_list {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+  .footer_container {
+    flex-wrap: wrap;
+  }
+  .logo_container {
+    margin-top: 1rem;
   }
 }
 .my_app {

@@ -1,5 +1,5 @@
 import React from "react";
-//Animation
+//Animations
 import { motion } from "framer-motion";
 import { pageAnimation, titleAnim, contactAnim, borderAnim } from "./Animation";
 //img
