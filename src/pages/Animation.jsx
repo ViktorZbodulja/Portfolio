@@ -39,7 +39,7 @@ export const borderAnim = {
     hidden: { opacity: 0 },
     show: {
         opacity: 1,
-        transition: {duration: 1, ease: "easeOut", staggerChildren: 0.2}
+        transition: {duration: 0.6, ease: "easeOut", staggerChildren: 0.2, delay: 0.5, when: "beforeChildren"}
     }
 }
 export const fade = {
