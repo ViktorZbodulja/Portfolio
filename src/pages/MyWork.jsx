@@ -1,7 +1,4 @@
 import React, {useState} from "react";
-import athlete from "../img/athlete-small.png";
-import theracer from "../img/theracer-small.png";
-import goodtimes from "../img/goodtimes-small.png";
 import { Link } from "react-router-dom";
 import myApps from "../components/myApps";
 import Aplication from "../components/Aplication";
