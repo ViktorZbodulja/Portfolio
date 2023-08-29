@@ -1,9 +1,13 @@
 .vertical_container {
     padding: 3rem 3rem;
     display: flex;
-    background: linear-gradient(to bottom, #1b1b1b, #6a6a6a);
+    background: linear-gradient(to bottom, rgb(27, 27, 27), rgb(19, 9, 22), #240024, rgb(27, 27, 27));
+    //background: linear-gradient(to bottom, rgb(27, 27, 27), #6a6a6a);
+    //background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgb(40, 0, 38) 8.3%, #2d0132 79.4% );
     flex-wrap: wrap;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 .vertical-timeline {
     margin: 0;  
@@ -24,14 +28,17 @@
 }
 .vertical-timeline-element-content {
     color: white;
-    background: rgba(66, 66, 66, 0.7);
+    background: rgba(66, 66, 66, 0.3);
+    backdrop-filter: blur(15px);
     box-shadow: 0 3px 0 #10d68d;
+    outline: 1px solid rgba(255, 255, 255, 0.2);
     h3 {
         color: white;
     }
 }
 .vertical-timeline-element-title {
     font-size: 1.4rem;
+    font-weight: 500;
 }
 .vertical-timeline-element-subtitle {
     font-size: 1.2rem;

@@ -17,7 +17,7 @@
         }
     }
     .skills {
-        justify-content: center;
+        justify-content: left;
     }
     .contact_title {
         flex-basis: 50%;
@@ -57,6 +57,11 @@
             margin-right: 0;
         }
         
+    }
+}
+@media(max-width: 1250px) {
+    .skills {
+        width: 95%;
     }
 }
 @media(max-width: 1110px) {
@@ -109,7 +114,10 @@
     .contact_container {
         flex-basis: 60%;
         margin-top: 3rem;
-      }
+    }
+    .myStack {
+        padding: 5rem 8rem;
+    }
 }
 @media(max-width: 955px) {
     .contact_style {
@@ -151,6 +159,23 @@
    .contact_style {
         padding: 4rem 3rem 2rem 3rem;
     } 
+    .myStack {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .skills {
+        width: 70%;
+    }
+    .stack_icons {
+       flex-basis: 100%;
+       align-content: center;
+       padding-top: 3rem;
+       flex-wrap: nowrap;
+    }
+    .about_text div {
+        font-size: 1.3rem;
+    }
 }
 @media(max-width: 765px) {
     .about {

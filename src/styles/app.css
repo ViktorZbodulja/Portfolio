@@ -550,7 +550,7 @@ p {
     margin: 2rem 0rem 5rem 0rem;
   }
   .skills {
-    justify-content: center;
+    justify-content: left;
   }
   .contact_title {
     flex-basis: 50%;
@@ -587,6 +587,11 @@ p {
   }
   .contact_txt p {
     margin-right: 0;
+  }
+}
+@media (max-width: 1250px) {
+  .skills {
+    width: 95%;
   }
 }
 @media (max-width: 1110px) {
@@ -636,6 +641,9 @@ p {
     flex-basis: 60%;
     margin-top: 3rem;
   }
+  .myStack {
+    padding: 5rem 8rem;
+  }
 }
 @media (max-width: 955px) {
   .contact_style {
@@ -676,6 +684,23 @@ p {
   }
   .contact_style {
     padding: 4rem 3rem 2rem 3rem;
+  }
+  .myStack {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .skills {
+    width: 70%;
+  }
+  .stack_icons {
+    flex-basis: 100%;
+    align-content: center;
+    padding-top: 3rem;
+    flex-wrap: nowrap;
+  }
+  .about_text div {
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 765px) {
@@ -811,9 +836,11 @@ p {
 .vertical_container {
   padding: 3rem 3rem;
   display: flex;
-  background: linear-gradient(to bottom, #1b1b1b, #6a6a6a);
+  background: linear-gradient(to bottom, rgb(27, 27, 27), rgb(19, 9, 22), #240024, rgb(27, 27, 27));
   flex-wrap: wrap;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .vertical-timeline {
@@ -839,8 +866,11 @@ p {
 
 .vertical-timeline-element-content {
   color: white;
-  background: rgba(66, 66, 66, 0.7);
+  background: rgba(66, 66, 66, 0.3);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   box-shadow: 0 3px 0 #10d68d;
+  outline: 1px solid rgba(255, 255, 255, 0.2);
 }
 .vertical-timeline-element-content h3 {
   color: white;
@@ -848,6 +878,7 @@ p {
 
 .vertical-timeline-element-title {
   font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .vertical-timeline-element-subtitle {
@@ -874,7 +905,7 @@ p {
 }
 
 .courses {
-  padding: 3rem 0rem;
+  padding: 4rem 0rem;
   color: white;
   display: flex;
   flex-wrap: wrap;
