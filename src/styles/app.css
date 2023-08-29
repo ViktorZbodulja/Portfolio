@@ -71,6 +71,7 @@ p {
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .description {
@@ -80,6 +81,9 @@ p {
 }
 .description h2 {
   font-weight: lighter;
+}
+.description p {
+  font-weight: 300;
 }
 
 .image {
@@ -103,6 +107,11 @@ p {
   position: absolute;
   left: 0;
   z-index: 1;
+}
+
+.title {
+  font-weight: 600;
+  line-height: 5rem;
 }
 
 .myStack {

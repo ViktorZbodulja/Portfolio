@@ -2,9 +2,13 @@
 
 .about {
     @include about;
+    font-family: 'Poppins', sans-serif;
 }
 .description {
   @include description;
+  p {
+    font-weight: 300;
+  }
 }
 .image {
    @include image;
@@ -17,4 +21,8 @@
   position: absolute;
   left: 0;
   z-index: 1;
+}
+.title {
+ font-weight: 600;
+ line-height: 5rem;
 }
