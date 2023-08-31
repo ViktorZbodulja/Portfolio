@@ -610,8 +610,8 @@ p {
   }
   .image img {
     width: 80%;
-    border-radius: 3rem;
-    height: 70vh;
+    border-radius: 2rem 8rem 2rem 8rem;
+    height: 63vh;
   }
   .app_container {
     flex-wrap: wrap;
@@ -634,6 +634,25 @@ p {
   .app_container .app_buttons {
     margin-top: 3rem;
   }
+  .myStack {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 5rem 17rem;
+  }
+  .skills {
+    width: 70%;
+  }
+  .stack_icons {
+    flex-basis: 100%;
+    align-content: center;
+    padding-top: 3rem;
+    flex-wrap: nowrap;
+    padding-top: 5rem;
+  }
+  .about_text div {
+    font-size: 1.3rem;
+  }
 }
 @media (max-width: 1055px) {
   .contact_style {
@@ -646,9 +665,6 @@ p {
   .contact_container {
     flex-basis: 60%;
     margin-top: 3rem;
-  }
-  .myStack {
-    padding: 5rem 8rem;
   }
 }
 @media (max-width: 955px) {
@@ -671,6 +687,9 @@ p {
   .contact_title {
     width: 80%;
   }
+  .myStack {
+    padding: 5rem 12rem;
+  }
 }
 @media (max-width: 885px) {
   .about {
@@ -691,22 +710,8 @@ p {
   .contact_style {
     padding: 4rem 3rem 2rem 3rem;
   }
-  .myStack {
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
   .skills {
-    width: 70%;
-  }
-  .stack_icons {
-    flex-basis: 100%;
-    align-content: center;
-    padding-top: 3rem;
-    flex-wrap: nowrap;
-  }
-  .about_text div {
-    font-size: 1.3rem;
+    width: 100%;
   }
 }
 @media (max-width: 765px) {
@@ -714,15 +719,24 @@ p {
     padding: 2rem 3rem;
   }
   .image img {
-    width: 100%;
+    width: 80%;
   }
   .contact_title, .contact_container {
     flex-basis: 90%;
+  }
+  .myStack {
+    padding: 5rem 8rem;
   }
 }
 @media (max-width: 650px) {
   .my_work {
     padding: 2rem 3rem;
+  }
+  .myStack {
+    padding: 5rem;
+  }
+  .image img {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
@@ -732,10 +746,19 @@ p {
   .my_work {
     padding: 2rem 2rem;
   }
+  .myStack {
+    padding: 5rem 3rem;
+  }
 }
 @media (max-width: 430px) {
   .contact_title, .contact_container {
     flex-basis: 100%;
+  }
+  .myStack {
+    padding: 5rem 3rem;
+  }
+  .stack_icons {
+    padding-right: 0rem;
   }
 }
 @media (max-width: 390px) {
