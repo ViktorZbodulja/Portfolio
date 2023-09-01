@@ -600,6 +600,11 @@ p {
     width: 95%;
   }
 }
+@media (max-width: 1169px) {
+  .vertical_container {
+    padding: 3rem 18rem;
+  }
+}
 @media (max-width: 1110px) {
   .about {
     display: block;
@@ -641,7 +646,7 @@ p {
     padding: 5rem 17rem;
   }
   .skills {
-    width: 70%;
+    width: 80%;
   }
   .stack_icons {
     flex-basis: 100%;
@@ -710,9 +715,6 @@ p {
   .contact_style {
     padding: 4rem 3rem 2rem 3rem;
   }
-  .skills {
-    width: 100%;
-  }
 }
 @media (max-width: 765px) {
   .about {
@@ -738,6 +740,9 @@ p {
   .image img {
     width: 100%;
   }
+  .skills {
+    width: 95%;
+  }
 }
 @media (max-width: 500px) {
   .image img {
@@ -749,8 +754,14 @@ p {
   .myStack {
     padding: 5rem 3rem;
   }
+  .title h2 {
+    font-size: 3.5rem;
+  }
 }
 @media (max-width: 430px) {
+  .about {
+    padding: 2rem;
+  }
   .contact_title, .contact_container {
     flex-basis: 100%;
   }
@@ -759,6 +770,12 @@ p {
   }
   .stack_icons {
     padding-right: 0rem;
+  }
+  .title {
+    line-height: 4.5rem;
+  }
+  .title h2 {
+    font-size: 3rem;
   }
 }
 @media (max-width: 390px) {
@@ -933,6 +950,31 @@ p {
   border-radius: 50%;
 }
 
+@media (max-width: 1169px) {
+  .vertical_container {
+    padding: 3rem 19rem;
+  }
+}
+@media (max-width: 1000px) {
+  .vertical_container {
+    padding: 3rem 15rem;
+  }
+}
+@media (max-width: 885px) {
+  .vertical_container {
+    padding: 3rem 10rem;
+  }
+}
+@media (max-width: 769px) {
+  .vertical_container {
+    padding: 3rem 5rem;
+  }
+}
+@media (max-width: 635px) {
+  .vertical_container {
+    padding: 3rem 1rem;
+  }
+}
 .courses {
   padding: 4rem 0rem;
   color: white;
