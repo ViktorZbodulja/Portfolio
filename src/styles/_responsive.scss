@@ -64,11 +64,7 @@
         width: 95%;
     }
 }
-@media(max-width: 1169px) {
-    .vertical_container {
-        padding: 3rem 18rem;
-    }
-}
+
 @media(max-width: 1110px) {
     .about {
         display: block;
@@ -162,6 +158,10 @@
     .myStack {
         padding: 5rem 12rem;
     }
+    .faq {
+        padding: 5rem 10rem 1rem 10rem;
+    }
+   
 }
 @media(max-width: 885px) {
     .about {
@@ -199,6 +199,9 @@
     .myStack {
         padding: 5rem 8rem;
     } 
+    .faq {
+        padding: 5rem 7rem 1rem 7rem;
+    }
 }
 @media(max-width: 650px) {
     .my_work {
@@ -219,7 +222,7 @@
 @media(max-width: 500px) {
     .image {
         img {
-         height: 55vh;
+         height: 40vh;
         } 
      }
     .my_work {
@@ -230,6 +233,12 @@
     }
     .title h2 {
         font-size: 3.5rem;
+    }
+    .faq {
+        padding: 5rem 5rem 1rem 5rem;
+        h2 {
+            font-size: 2.8rem;
+        }
     }
 }
 @media(max-width: 430px) {
@@ -280,6 +289,11 @@
     .logo_container {
         margin-top: 1rem;
     }
+    .faq {
+        padding: 5rem 3rem 1rem 3rem;
+    }
 }
+
+
 
 // Contact

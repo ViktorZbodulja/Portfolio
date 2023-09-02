@@ -57,3 +57,38 @@
     }
     
 }
+@media (max-width: 1100px) {
+    .course {
+        width: 28%;
+    }
+}
+@media (max-width: 955px) {
+    .courses_container {
+        justify-content: space-evenly;
+    }
+    .course {
+        padding: 1rem 1rem 1rem 2rem;
+    }
+}
+@media (max-width: 750px) {
+    .course {
+       flex-basis: 40%;
+       &:nth-child(3) {
+        margin-top: 3rem;
+    }
+    }
+}
+@media (max-width: 545px) {
+    .course {
+       flex-basis: 60%;
+        margin-top: 2rem;
+        &:nth-child(3) {
+        margin-top: 2rem;
+        }
+    }
+}
+@media (max-width: 463px) {
+    .course {
+       flex-basis: 80%;
+    }
+}
