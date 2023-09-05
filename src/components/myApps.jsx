@@ -36,7 +36,7 @@ function myApps() {
         name: "Beat Creator",
         cover: `${beat}`,
         description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
-        aditional:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
+        aditional1:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
         aditional2: "With its user-friendly interface, you'll find it effortless to explore the diverse range of beat options available. From punchy kicks to crisp snares, the application offers a wide array of sounds to choose from, enabling you to create the perfect beat that resonates with your musical vision. One notable feature of this application is its complete responsiveness.",
         gitHub: "https://github.com/ViktorZbodulja/BeatCreator_JS",
         live: "https://beatcreatorjs.netlify.app",
@@ -45,9 +45,9 @@ function myApps() {
       {
         name: "Color.Palette.Generator",
         cover: `${palette}`,
-        description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
-        aditional:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
-        aditional2: "With its user-friendly interface, you'll find it effortless to explore the diverse range of beat options available. From punchy kicks to crisp snares, the application offers a wide array of sounds to choose from, enabling you to create the perfect beat that resonates with your musical vision. One notable feature of this application is its complete responsiveness.",
+        description: "Create your palette and use it while building your own UI.",
+        aditional1:"This dynamic JavaScript application allows users to generate custom color palettes effortlessly. This tool empowers users to experiment with a wide spectrum of colors, fine-tuning their selections until they find the perfect combination.",
+        aditional2: "Moreover, users can save their favorite color palettes to a library for easy access and reuse. ",
         gitHub: "https://github.com/ViktorZbodulja/Color_Palette_Generator_JS",
         live: "https://color-palette-generatorjs.netlify.app/",
         stack: [`${html}`, `${css}`, `${js}`]
@@ -55,9 +55,8 @@ function myApps() {
       {
         name: "Chill.Vibes",
         cover: `${chill}`,
-        description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
-        aditional:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
-        aditional2: "With its user-friendly interface, you'll find it effortless to explore the diverse range of beat options available. From punchy kicks to crisp snares, the application offers a wide array of sounds to choose from, enabling you to create the perfect beat that resonates with your musical vision. One notable feature of this application is its complete responsiveness.",
+        description: "This project's purpose was to create a clean music player using React. ",
+        aditional1:"It is also mobile-friendly, ensuring that users can enjoy this app on the go, with a responsive design that adapts seamlessly to various mobile devices.",
         gitHub: "https://github.com/ViktorZbodulja/React_music_player",
         live: "https://chill-vibes.netlify.app/",
         stack: [`${html}`, `${css}`, `${sass}`, `${react}`]
@@ -65,9 +64,7 @@ function myApps() {
       {
         name: "Fashion Fare",
         cover: `${fashion}`,
-        description: "Introducing a dynamic and engaging JavaScript application designed to ignite your creativity and rhythm: a beat-making platform.",
-        aditional:"This intuitive application allows you to craft personalized beats by selecting various types of beats, including kicks and snares, and adjust the tempo to suit your desired vibe.",
-        aditional2: "With its user-friendly interface, you'll find it effortless to explore the diverse range of beat options available. From punchy kicks to crisp snares, the application offers a wide array of sounds to choose from, enabling you to create the perfect beat that resonates with your musical vision. One notable feature of this application is its complete responsiveness.",
+        description: "This application was made for practicing animations with Gsap; for practicing animations and page transitions.",
         gitHub: "https://github.com/ViktorZbodulja/FashionFlair",
         live: "https://fashion-flarejs.netlify.app/",
         stack: [`${html}`, `${css}`, `${sass}`, `${js}`]
