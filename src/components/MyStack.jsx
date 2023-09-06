@@ -7,15 +7,15 @@ import react from "../img/react.png";
 import git from "../img/git.png";
 import redux from "../img/redux.png";
 import { motion } from "framer-motion";
-import { scrollReveal } from "../pages/Animation";
-import { useScroll } from "./useScroll";
+import { scrollReveal2 } from "../pages/Animation";
+import { useScrollHome } from "./useScroll";
 import { Link } from "react-router-dom";
 
 function MyStack() {
-  const [element, controls] = useScroll();
+  const [element, controls] = useScrollHome();
   return (
     <div className="myStack" >
-      <motion.div className="stack_icons" ref={element} variants={scrollReveal} animate={controls} initial="hidden">
+      <motion.div className="stack_icons" ref={element} variants={scrollReveal2} animate={controls} initial="hidden">
         <h2>
           My tech <span>Stack</span>
         </h2>      
@@ -79,7 +79,7 @@ function MyStack() {
         </div>
         <Link to="/work"><button className="my_work_button">My Work</button></Link>
       </motion.div>
-      <motion.div className="about_text" ref={element} variants={scrollReveal} animate={controls} initial="hidden">
+      <motion.div className="about_text" ref={element} variants={scrollReveal2} animate={controls} initial="hidden">
         <h2>About</h2>
         <div>As a Junior Front-End Developer, I am passionate about creating clean, elegant, and responsive websites that provide an exceptional user experience. I am constantly learning new technologies and best practices to improve my skills and stay up-to-date with the latest trends in web development.</div>
       </motion.div>

@@ -58,8 +58,7 @@ export const photoAnim = {
             ease: "easeOut",
             duration: 0.75
         }
-    }
-    
+    }   
 }
 export const lineAnim = {
     hidden: {width: "0%"},
@@ -89,6 +88,14 @@ export const scrollReveal = {
         scale: 1,
         y: 0,
         transition: {duration: 0.5, ease: "easeOut"}
+    }
+}
+export const scrollReveal2 = {
+    hidden: {opacity: 0, scale: 1.1, tranistion:{duration: 0.7}},
+    show: {
+        opacity: 1,
+        scale: 1,
+        transition: {duration: 0.7, ease: "easeOut"}
     }
 }
 export const courseAnim = {

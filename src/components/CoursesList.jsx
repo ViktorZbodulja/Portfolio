@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScroll } from "./useScroll";
+import { useScrollHome } from "./useScroll";
 import jsLogo from "../img/jsLogo.svg";
 import reactLogo from "../img/reactLogo.svg";
 import flutterLogo from "../img/flutterLogo.svg";
@@ -8,7 +8,9 @@ import { motion } from "framer-motion";
 import { courseAnim } from "../pages/Animation";
 
 function CoursesList() {
-  const [element, controls] = useScroll();
+  const [element, controls] = useScrollHome();
+ 
+  console.log(element);
   return (
     <div className='courses'>
         <h2>Finished Courses</h2>
