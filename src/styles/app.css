@@ -334,9 +334,11 @@ nav .nav_line {
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
+  font-family: "Poppins", sans-serif;
 }
 .my_work h2 {
   padding: 1rem 0rem;
+  font-weight: 300;
 }
 
 .my_app {
@@ -865,7 +867,8 @@ p {
   text-align: justify;
 }
 .app_description div {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .app_header {
@@ -889,6 +892,11 @@ p {
   margin-left: 2rem;
 }
 
+@media (max-width: 1650px) {
+  .app_description div {
+    font-size: 1.4rem;
+  }
+}
 .vertical_container {
   padding: 3rem 3rem;
   display: flex;

@@ -43,7 +43,8 @@
     margin-left: 3rem;
     text-align: justify;
     div {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        font-weight: 300;
     }
 }
 .app_header {
@@ -63,5 +64,10 @@
     }
     :nth-child(2) {
         margin-left: 2rem;
+    }
+}
+@media(max-width: 1650px) {
+    .app_description div {
+            font-size: 1.4rem;  
     }
 }
