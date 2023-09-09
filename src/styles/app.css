@@ -180,6 +180,8 @@ p {
   font-size: 1.2rem;
   line-height: 160%;
   text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 .image {
@@ -541,6 +543,15 @@ p {
   transform: translateY(6px);
 }
 
+@media (max-width: 1750px) {
+  .description p {
+    font-size: 1.5rem;
+  }
+  .about_text div {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+}
 @media (max-width: 1300px) {
   .about {
     text-align: center;
@@ -653,7 +664,11 @@ p {
     padding-top: 5rem;
   }
   .about_text div {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+  }
+  .wave_svg {
+    top: 70%;
+    z-index: -1;
   }
 }
 @media (max-width: 1055px) {
@@ -732,6 +747,9 @@ p {
   .faq {
     padding: 5rem 7rem 1rem 7rem;
   }
+  .wave_svg {
+    top: 80%;
+  }
 }
 @media (max-width: 650px) {
   .my_work {
@@ -765,6 +783,9 @@ p {
   }
   .faq h2 {
     font-size: 2.8rem;
+  }
+  .description p {
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 430px) {
