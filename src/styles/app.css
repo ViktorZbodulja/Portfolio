@@ -516,19 +516,23 @@ p {
   border-radius: 1rem;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
   border: 1px solid #23d997;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 .contact_txt {
   overflow: hidden;
   flex-basis: 50%;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 .contact_txt p {
   font-size: 1.6rem;
   margin-right: 5rem;
   color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: lighter;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
   text-align: justify;
 }
 .contact_txt h2 {
@@ -926,6 +930,35 @@ p {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle_one {
+  position: absolute;
+  top: 170px;
+  right: -110px;
+  display: block;
+  height: 20em;
+  width: 20em;
+  border-radius: 100vw;
+  background: rgba(53, 20, 84, 0.643);
+  background: conic-gradient(from 90deg, rgba(204, 14, 56, 0.918), rgba(62, 12, 201, 0.827), rgba(17, 24, 129, 0.925));
+  filter: blur(140px);
+}
+
+.circle_two {
+  position: absolute;
+  top: 60%;
+  left: -380px;
+  display: block;
+  height: 30em;
+  width: 30em;
+  border-radius: 100vw;
+  background: rgba(53, 20, 84, 0.643);
+  background: conic-gradient(from 90deg, rgba(17, 24, 129, 0.925), rgba(62, 12, 201, 0.827), rgba(204, 14, 56, 0.918));
+  filter: blur(140px);
+  opacity: 0.5;
 }
 
 .vertical-timeline {

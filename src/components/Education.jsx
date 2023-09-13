@@ -25,6 +25,8 @@ function Education() {
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
+      <div className='circle_one'></div>
+      <div className='circle_two'></div>
     </div>
   );
 }

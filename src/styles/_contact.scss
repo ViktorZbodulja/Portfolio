@@ -66,18 +66,22 @@
     border-radius: 1rem;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     border: 1px solid #23d997;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 .contact_txt {
     overflow: hidden;
     flex-basis: 50%;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     p {
         font-size: 1.6rem;
         margin-right: 5rem;
         //color: #909090;
         color: white;
-        font-family: "Inter", sans-serif;
-        font-weight: lighter;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
         text-align: justify;
     }
     h2 {
