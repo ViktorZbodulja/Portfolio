@@ -184,6 +184,10 @@ p {
   font-weight: 300;
 }
 
+.short_description:nth-child(3) {
+  padding-top: 1.5rem;
+}
+
 .image {
   flex: 1;
   overflow: hidden;
@@ -811,6 +815,9 @@ p {
   .title h2 {
     font-size: 3rem;
   }
+  .wave_svg {
+    top: 85%;
+  }
 }
 @media (max-width: 390px) {
   .contact_style {
@@ -945,6 +952,7 @@ p {
   background: rgba(53, 20, 84, 0.643);
   background: conic-gradient(from 90deg, rgba(204, 14, 56, 0.918), rgba(62, 12, 201, 0.827), rgba(17, 24, 129, 0.925));
   filter: blur(140px);
+  animation: circle_one_anim 6s ease infinite;
 }
 
 .circle_two {
@@ -961,6 +969,20 @@ p {
   opacity: 0.5;
 }
 
+@keyframes circle_one_anim {
+  0% {
+    width: 30em;
+    height: 30em;
+  }
+  50% {
+    width: 35em;
+    height: 35em;
+  }
+  100% {
+    width: 30em;
+    height: 30em;
+  }
+}
 .vertical-timeline {
   margin: 0;
 }

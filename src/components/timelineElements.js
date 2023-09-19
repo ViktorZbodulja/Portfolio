@@ -1,7 +1,7 @@
 const timelineElements = [
   {
     id: 1,
-    name: "Algebra coledge",
+    name: "Algebra",
     title: "Frontend developer, Computer science",
     location: "Zagreb",
     date: "2022-2023",

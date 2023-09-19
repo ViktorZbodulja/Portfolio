@@ -9,8 +9,6 @@ import { courseAnim } from "../pages/Animation";
 
 function CoursesList() {
   const [element, controls] = useScrollHome();
- 
-  console.log(element);
   return (
     <div className='courses'>
         <h2>Finished Courses</h2>

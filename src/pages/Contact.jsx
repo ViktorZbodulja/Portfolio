@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { pageAnimation, titleAnim, contactAnim, borderAnim } from "./Animation";
 //img
 import contactImg from "../img/contact_background.jpg";
+//scroll to top
+import ScrollTop from "../components/ScrollTop";
 
 function Contact() {
   return (
@@ -44,6 +46,7 @@ function Contact() {
           </div>
         </motion.div>
       </div>
+      <ScrollTop/>
     </motion.div>
   )
 }

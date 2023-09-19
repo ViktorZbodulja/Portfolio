@@ -20,6 +20,7 @@
     background: rgba(53,20,84,.643);
     background: conic-gradient(from 90deg,rgba(204,14,56,.918),rgba(62,12,201,.827),rgba(17,24,129,.925));
     filter: blur(140px);
+    animation: circle_one_anim 6s ease infinite;
 }
 .circle_two {
     position: absolute;
@@ -33,6 +34,11 @@
     background: conic-gradient(from 90deg,rgba(17,24,129,.925),rgba(62,12,201,.827),rgba(204,14,56,.918));
     filter: blur(140px);
     opacity: 0.5;
+}
+@keyframes circle_one_anim {
+    0% { width: 30em; height: 30em;}
+    50% { width: 35em; height: 35em; }
+    100% { width: 30em; height: 30em;}
 }
 .vertical-timeline {
     margin: 0;  

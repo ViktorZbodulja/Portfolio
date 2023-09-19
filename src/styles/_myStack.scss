@@ -54,6 +54,9 @@
     //border-radius: 10px;
   }
 }
+.short_description:nth-child(3) {
+  padding-top: 1.5rem;
+}
 .image {
   @include image;
 }
