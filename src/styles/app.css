@@ -952,8 +952,8 @@ p {
   top: 170px;
   right: -110px;
   display: block;
-  height: 20em;
-  width: 20em;
+  height: 30em;
+  width: 30em;
   border-radius: 100vw;
   background: rgba(53, 20, 84, 0.643);
   background: conic-gradient(from 90deg, rgba(204, 14, 56, 0.918), rgba(62, 12, 201, 0.827), rgba(17, 24, 129, 0.925));
@@ -1050,6 +1050,11 @@ p {
   border-radius: 50%;
 }
 
+@media (max-width: 1250px) {
+  .circle_one {
+    animation: none;
+  }
+}
 @media (max-width: 1169px) {
   .vertical_container {
     padding: 3rem 19rem;
