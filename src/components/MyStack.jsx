@@ -81,8 +81,10 @@ function MyStack() {
       </motion.div>
       <motion.div className="about_text" ref={element} variants={scrollReveal2} animate={controls} initial="hidden">
         <h2>About</h2>
-        <div className="short_description">As a Junior <span>Frontend</span> Developer, I am passionate about creating clean, elegant, and responsive websites that provide an exceptional user experience. I am constantly learning new technologies and best practices to improve my skills and stay up-to-date with the latest trends in web development.</div>
-        <div className="short_description">Also I am actively working towards expanding my skills into the realm of <span>Quality Assurance</span> to ensure the utmost reliability and excellence in applications.</div>
+        <div className="description_container">
+          <div className="short_description">As a Junior <span>Frontend</span> Developer, I am passionate about creating clean, elegant, and responsive websites that provide an exceptional user experience. I am constantly learning new technologies and best practices to improve my skills and stay up-to-date with the latest trends in web development.</div>
+          <div className="short_description">Also I am actively working towards expanding my skills into the realm of <span>Quality Assurance</span> to ensure the utmost reliability and excellence in applications.</div>
+        </div>
       </motion.div>
     </div>
   );
