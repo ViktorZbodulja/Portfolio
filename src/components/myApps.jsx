@@ -4,6 +4,7 @@ import gamesPlanet from "../img/gamesPlanet_2.png";
 import chill from "../img/chill.jpg";
 import palette from "../img/palette.png";
 import fashion from "../img/fashion.jpg";
+import chat from "../img/chat_app.jpg"
 import html from "../img/html.png";
 import css from "../img/css.png";
 import react from "../img/react.png";
@@ -21,7 +22,7 @@ function myApps() {
         aditional1: "What sets this app apart is its ability to dynamically change the background picture based on the entered city.",
         gitHub: "https://github.com/ViktorZbodulja/ReactJS-Weather-app",
         live: "https://forecastnow-weather.netlify.app/",
-        stack: [`${html}`, `${css}`, `${sass}`, `${react}`]
+        stack: [`${react}`, `${sass}`, ]
       },
       {
         name: "Games Planet",
@@ -30,7 +31,7 @@ function myApps() {
         aditional1:"Upon finding a game of interest, a single click triggers a comprehensive details view, providing users with in-depth information, such as gameplay, ratings, and release date. ",
         gitHub: "https://github.com/ViktorZbodulja/Games_planet",
         live: "https://games-planet.netlify.app/",
-        stack: [`${html}`, `${css}`, `${sass}`, `${react}`, `${redux}`]
+        stack: [`${react}`, `${sass}`, `${redux}`]
       },
       {
         name: "Beat Creator",
@@ -43,6 +44,16 @@ function myApps() {
         stack: [`${html}`, `${css}`, `${js}`]
       },
       {
+        name: "Chat App",
+        cover: `${chat}`,
+        description: "A versatile and user-friendly chat application that leverages the power of React and the Scaledrone API service.",
+        aditional1:"This fully responsive chat app provides a seamless communication experience across devices, making it ideal for both desktop and mobile users.",
+        aditional2:"With Scaledrone's real-time messaging capabilities, users can engage in instant conversations, ensuring that messages are delivered and received in the blink of an eye.",
+        gitHub: "https://github.com/ViktorZbodulja/ReactChatApp",
+        live: "https://reactchat4pp.netlify.app/",
+        stack: [`${react}`, `${sass}`]
+      },
+      /*{
         name: "Color.Palette.Generator",
         cover: `${palette}`,
         description: "Create your palette and use it while building your own UI.",
@@ -51,7 +62,7 @@ function myApps() {
         gitHub: "https://github.com/ViktorZbodulja/Color_Palette_Generator_JS",
         live: "https://color-palette-generatorjs.netlify.app/",
         stack: [`${html}`, `${css}`, `${js}`]
-      },
+      },*/
       {
         name: "Chill.Vibes",
         cover: `${chill}`,
