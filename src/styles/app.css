@@ -936,9 +936,9 @@ p {
   }
 }
 .vertical_container {
-  padding: 3rem 3rem;
+  padding: 3rem 3rem 0rem 3rem;
   display: flex;
-  background: linear-gradient(to bottom, rgb(27, 27, 27), rgb(19, 9, 22), #240024, rgb(27, 27, 27));
+  background: #050016;
   flex-wrap: wrap;
   justify-content: center;
   font-family: "Poppins", sans-serif;
@@ -993,6 +993,10 @@ p {
   margin: 0;
 }
 
+.vertical-timeline-element {
+  margin: 2rem 0rem;
+}
+
 .vertical-timeline-element span {
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -1017,18 +1021,19 @@ p {
           backdrop-filter: blur(15px);
   box-shadow: 0 3px 0 #10d68d;
   outline: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem !important;
 }
 .vertical-timeline-element-content h3 {
   color: white;
 }
 
 .vertical-timeline-element-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 .vertical-timeline-element-subtitle {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-top: 0.5rem;
   font-weight: 200;
 }
@@ -1086,7 +1091,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #121212;
+  background-color: #111011;
 }
 .courses h2 {
   font-family: "Poppins", sans-serif;

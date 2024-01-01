@@ -3,9 +3,9 @@
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 <svg width="800px" height="800px" viewBox="0 0 72 72" id="emoji" xmlns="http://www.w3.org/2000/svg">
   <g id="color">
-    <circle cx="36" cy="36" r="28" fill="#692d9b"/>
+    <circle cx="36" cy="36" r="28" fill="#550b6a"/>
   </g>
   <g id="line">
-    <circle cx="36" cy="36" r="28" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="4"/>
+    <circle cx="36" cy="36" r="28" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-width="3"/>
   </g>
 </svg>
